@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Mostafa | Full-Stack Developer</title>
+  <meta name="description" content="Ahmed Mostafa - Full-Stack Developer based in Cairo, Egypt. React, Next.js, Node.js, TypeScript. View my projects and get in touch.">
+  <meta property="og:title" content="Ahmed Mostafa | Full-Stack Developer">
+  <meta property="og:description" content="Full-Stack Developer building complete web applications with React, Next.js, Node.js and TypeScript.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>AM</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="nav-logo">AM</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="container">
+      <p class="hero-kicker">Hi, my name is</p>
+      <h1 class="hero-name">Ahmed Mostafa</h1>
+      <h2 class="hero-title">Full-Stack Developer</h2>
+      <p class="hero-sub">
+        I build complete web applications with JavaScript and TypeScript, from database to
+        deployed UI. React and Next.js frontends, Node.js and Express APIs, MongoDB and
+        PostgreSQL data layers, authentication, payments and real-time features.
+      </p>
+      <div class="hero-meta">
+        <span class="hero-location">Cairo, Egypt</span>
+        <span class="hero-dot">&middot;</span>
+        <span>Open to remote junior and entry-level full-stack roles</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="mailto:a7med.mostafa.s3d@gmail.com" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/ahmedmostafaa0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/ahmed-mostafa-b71ab8367" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <div class="container">
+        <h3 class="section-title"><span class="section-num">01.</span> About</h3>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a full-stack developer with a portfolio of production-style projects covering
+              the whole web stack: responsive React and Next.js frontends, REST APIs with
+              Node.js and Express, MongoDB and PostgreSQL databases, JWT and NextAuth
+              authentication, Stripe payments, and real-time features with Socket.IO.
+            </p>
+            <p>
+              I hold a B.Sc. in Computer Science from Nahda University and completed an
+              intensive MERN stack training at the Information Technology Institute (ITI).
+              I like owning a feature end to end: data model, API, UI, deployment.
+            </p>
+          </div>
+          <div class="about-card">
+            <ul class="about-facts">
+              <li><span>Based in</span><strong>Cairo, Egypt</strong></li>
+              <li><span>Degree</span><strong>B.Sc. Computer Science, 2025</strong></li>
+              <li><span>Focus</span><strong>Full-stack JavaScript / TypeScript</strong></li>
+              <li><span>Looking for</span><strong>Remote full-stack roles</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h3 class="section-title"><span class="section-num">02.</span> Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4>Languages</h4>
+            <ul><li>JavaScript</li><li>TypeScript</li></ul>
+          </div>
+          <div class="skill-card">
+            <h4>Frontend</h4>
+            <ul><li>React</li><li>Next.js</li><li>Vite</li><li>Tailwind CSS</li></ul>
+          </div>
+          <div class="skill-card">
+            <h4>Backend</h4>
+            <ul><li>Node.js</li><li>Express</li><li>REST APIs</li><li>Socket.IO</li></ul>
+          </div>
+          <div class="skill-card">
+            <h4>Databases</h4>
+            <ul><li>MongoDB (Mongoose)</li><li>PostgreSQL (Prisma)</li></ul>
+          </div>
+          <div class="skill-card">
+            <h4>Auth &amp; Payments</h4>
+            <ul><li>JWT</li><li>NextAuth</li><li>Stripe</li></ul>
+          </div>
+          <div class="skill-card">
+            <h4>Tools &amp; Services</h4>
+            <ul><li>Git / GitHub</li><li>Cloudinary</li><li>Swagger</li><li>Resend</li><li>Vercel</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h3 class="section-title"><span class="section-num">03.</span> Projects</h3>
+
+        <div class="project featured">
+          <div class="project-body">
+            <p class="project-label">Featured project</p>
+            <h4 class="project-name">BabyMart - E-Commerce Platform</h4>
+            <p class="project-desc">
+              Full e-commerce monorepo with a customer storefront, an admin panel and a shared
+              API. Next.js, React and TypeScript on the frontend; Express and MongoDB/Mongoose
+              on the backend; Stripe payments and Cloudinary media uploads.
+            </p>
+            <ul class="project-tech">
+              <li>Next.js</li><li>TypeScript</li><li>Express</li><li>MongoDB</li><li>Stripe</li><li>Cloudinary</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://baby-shop-client.vercel.app/" target="_blank" rel="noopener noreferrer">Live storefront</a>
+              <a href="https://baby-shop-admin.vercel.app/" target="_blank" rel="noopener noreferrer">Admin panel</a>
+              <a href="https://github.com/ahmedmostafaa0/Baby-Shop" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project">
+            <p class="project-label">Job platform</p>
+            <h4 class="project-name">JobList</h4>
+            <p class="project-desc">
+              Job listing platform with posting, search and application flows. NextAuth
+              authentication, Stripe payments and Resend transactional email.
+            </p>
+            <ul class="project-tech">
+              <li>Next.js</li><li>TypeScript</li><li>Prisma</li><li>PostgreSQL</li><li>Stripe</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://job-list-ashen.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="https://github.com/ahmedmostafaa0/job-list" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <p class="project-label">Booking system</p>
+            <h4 class="project-name">Classroom Booking System</h4>
+            <p class="project-desc">
+              Full-stack classroom booking and management system with scheduling and admin
+              workflows, JWT authentication and Socket.IO real-time booking updates.
+            </p>
+            <ul class="project-tech">
+              <li>React</li><li>Vite</li><li>TypeScript</li><li>Express</li><li>MongoDB</li><li>Socket.IO</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/ahmedmostafaa0/Classroom-Booking" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <p class="project-label">Rental app</p>
+            <h4 class="project-name">Car Rental</h4>
+            <p class="project-desc">
+              Car rental and booking app with vehicle browsing and a reservation flow.
+              React and Vite frontend backed by a Node.js, Express and MongoDB API.
+            </p>
+            <ul class="project-tech">
+              <li>React</li><li>Vite</li><li>Node.js</li><li>Express</li><li>MongoDB</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://car-rental-six-livid.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="https://github.com/ahmedmostafaa0/Car-Rental" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <p class="project-label">Social app</p>
+            <h4 class="project-name">Your Places</h4>
+            <p class="project-desc">
+              Place-sharing app backed by a Node.js, Express and MongoDB REST API with
+              authentication, full CRUD, image uploads and Swagger API documentation.
+            </p>
+            <ul class="project-tech">
+              <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Swagger</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://your-places-liart.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="https://github.com/ahmedmostafaa0/Your-Places" target="_blank" rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <h3 class="section-title"><span class="section-num">04.</span> Experience &amp; Education</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-when">Jul 2024 - Aug 2024</div>
+            <div class="timeline-body">
+              <h4>MERN Stack Developer Training</h4>
+              <p class="timeline-org">Information Technology Institute (ITI)</p>
+              <p class="timeline-desc">
+                Intensive one-month training program on the MERN stack: MongoDB, Express.js,
+                React and Node.js.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-when">Class of 2025</div>
+            <div class="timeline-body">
+              <h4>B.Sc. in Computer Science</h4>
+              <p class="timeline-org">Nahda University, Beni Suef</p>
+              <p class="timeline-desc">Class of 2025.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-inner">
+        <h3 class="section-title"><span class="section-num">05.</span> Contact</h3>
+        <p class="contact-lead">
+          I'm currently looking for remote junior and entry-level full-stack roles with
+          international teams. If you have a role or a project in mind, I'd love to hear about it.
+        </p>
+        <a href="mailto:a7med.mostafa.s3d@gmail.com" class="btn btn-primary btn-lg">a7med.mostafa.s3d@gmail.com</a>
+        <div class="contact-links">
+          <a href="https://github.com/ahmedmostafaa0" target="_blank" rel="noopener noreferrer">github.com/ahmedmostafaa0</a>
+          <a href="https://www.linkedin.com/in/ahmed-mostafa-b71ab8367" target="_blank" rel="noopener noreferrer">linkedin.com/in/ahmed-mostafa-b71ab8367</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed and built by Ahmed Mostafa</p>
+    </div>
+  </footer>
+
+  <script>
+    var toggle = document.getElementById('navToggle');
+    var links = document.getElementById('navLinks');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    links.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') links.classList.remove('open');
+    });
+  </script>
+</body>
+</html>
